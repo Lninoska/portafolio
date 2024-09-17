@@ -1,0 +1,136 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+#nav {
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 15px;
+}
+
+
+
+/* Presentación */
+.fondo {
+    background: linear-gradient(62deg, #f298c0,#4152a0); 
+    height: 500px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+.linea {
+    border: solid 2px #e1e5f8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 2px;
+} 
+.descripcion {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #fff;
+}
+
+/* habilidades */
+h3 {
+    padding-top: 50px;
+    text-align: center;
+    color: #4152a0;
+}
+.habilidades-grupo {
+    color: #4e5c9b;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly
+    
+}
+
+/* Proyectos */
+#proyectos {
+    background: linear-gradient(60deg,#0a112f,#4152a0);
+}
+#grupo-cards {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-text {
+    text-align: center; 
+}
+.card-title {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+}
+.titulo {
+    color: #fff;
+}
+.btn {
+    background-color: #f298c0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #4152a0;
+    color: #fff;
+}
+
+/* Contacto */
+#formulario {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.form-1 {
+    display: flex;
+}
+.form-2 {
+    display: flex;
+}
+.form-3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+label {
+    margin: 15px;
+}
+input {
+    margin: 15px;
+}
+textarea {
+    margin: 15px;
+}
+
+footer {
+    height: 30px;
+    background: linear-gradient(30deg,#4152a0,#0a112f);
+}
+.grupo-iconos {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.bi {
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bi:hover {
+    color: #f298c0
+}
