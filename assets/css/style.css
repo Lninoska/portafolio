@@ -105,6 +105,10 @@ h3 {
     padding: 20px;
 }
 
+.modal-form{
+    display: none;
+}
+
 label {
     margin: 15px;
 }
@@ -133,3 +137,4 @@ footer {
 .bi:hover {
     color: #f298c0
 }
+

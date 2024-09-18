@@ -126,9 +126,30 @@
                     <textarea name="form-control" id="mensaje" placeholder="Escribe un mensaje" required></textarea>
                 </div>
                 <div class="form-3">
-                    <button type="submit" class="btn">Enviar</button>
+                    <button type="button" class="btn" id="abrirmodal" data-bs-toggle="modal"
+                        data-bs-target="#abrir-modal">Enviar</button>
                 </div>
-            </form>
+                <div class="modal fade" id="abrir-modal" tabindex="-1" aria-labelledby="abrir-modalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="abrir-modalLabel">Mensaje</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                    id="btn-cerrar"></button>
+                            </div>
+                            <div class="modal-body">
+                                Tu mensaje ha sido enviado, gracias.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn" id="cerrar" data-bs-dismiss="modal">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+        </form>
         </div>
     </section>
     <!-- Footer -->
